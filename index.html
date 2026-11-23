@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#092b63">
+  <meta name="description" content="UbicBus te ayuda a encontrar tu ruta, ubicar paraderos y seguir tu bus en tiempo real. Muévete por la ciudad de manera más fácil.">
+  <title>UbicBus — Tu ciudad, más cerca</title>
+  <link rel="icon" href="assets/busi.png" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="announcement"><span class="pulse"></span> Muévete mejor. Aprovecha cada viaje.</div>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Navegación principal">
+      <a class="brand" href="#inicio" aria-label="UbicBus, inicio">
+        <span class="brand-mark"><img src="assets/busi.png" alt=""></span>
+        <span>Ruta<span>Bus</span></span>
+      </a>
+      <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false"><span></span><span></span><span></span></button>
+      <div class="nav-links">
+        <a href="#funciones">Funciones</a>
+        <a href="#como-funciona">Cómo funciona</a>
+        <a href="#busi">Conoce a Busi</a>
+        <a class="nav-cta" href="#descargar">Descubre la app <span>↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="inicio">
+      <div class="hero-bg-shape shape-one"></div><div class="hero-bg-shape shape-two"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="eyebrow-dot"></span> Tu compañero de viaje</div>
+          <h1>Tu ciudad,<br><span>más cerca.</span></h1>
+          <p class="hero-lead">Encuentra cómo llegar, conoce tus opciones y sigue tu bus. Con UbicBus, moverte por la ciudad se siente más sencillo.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#descargar">Quiero conocer UbicBus <span>→</span></a>
+            <a class="text-link" href="#funciones">Explorar funciones <span>↓</span></a>
+          </div>
+          <div class="hero-note"><span class="mini-flag">🇵🇪</span><span>Hecho para acompañarte en tus viajes por la ciudad.</span></div>
+        </div>
+        <div class="hero-visual">
+          <div class="visual-orbit orbit-a"></div><div class="visual-orbit orbit-b"></div>
+          <div class="floating-tag tag-top"><span class="tag-icon">⌖</span><span><b>Tu ruta ideal</b><small>Encuéntrala fácilmente</small></span></div>
+          <div class="phone">
+            <div class="phone-notch"></div>
+            <div class="app-screen">
+              <div class="app-top"><span class="app-logo">Ruta<span>Bus</span></span><span class="avatar">🙂</span></div>
+              <p class="screen-greeting">¡Hola! ¿A dónde vamos?</p>
+              <div class="search-fake"><span>⌕</span> ¿A dónde quieres ir?<b>☷</b></div>
+              <div class="screen-label">Explora cerca de ti</div>
+              <div class="map-preview">
+                <div class="map-road road-a"></div><div class="map-road road-b"></div><div class="map-road road-c"></div>
+                <div class="map-river"></div><span class="map-pin pin-a">●</span><span class="map-pin pin-b">●</span>
+                <div class="map-bus">🚌</div><span class="map-caption">Tu ciudad</span>
+              </div>
+              <div class="screen-label">Tus accesos rápidos</div>
+              <div class="quick-grid"><div><i>⌖</i><span>Paraderos</span></div><div><i>♡</i><span>Favoritos</span></div><div><i>◷</i><span>Alertas</span></div></div>
+              <div class="screen-bottom"><span>⌂<small>Inicio</small></span><span>⌕<small>Buscar</small></span><span>♡<small>Guardados</small></span><span>☻<small>Perfil</small></span></div>
+            </div>
+          </div>
+          <div class="floating-tag tag-bottom"><span class="live-dot"></span><span><b>Viaja con confianza</b><small>Información a tu alcance</small></span></div>
+          <div class="sparkle sparkle-one">✦</div><div class="sparkle sparkle-two">✳</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="trust-strip">
+      <div class="container trust-inner"><span>Una forma más práctica de viajar</span><i></i><span>Información en un solo lugar</span><i></i><span>Diseñada pensando en ti</span></div>
+    </section>
+
+    <section class="section features-section" id="funciones">
+      <div class="container">
+        <div class="section-heading">
+          <div class="eyebrow">TODO EN UN SOLO LUGAR</div>
+          <h2>Tu viaje comienza<br>con <span>una buena ruta.</span></h2>
+          <p>Las herramientas que necesitas para organizar tus recorridos y aprovechar mejor tu tiempo.</p>
+        </div>
+        <div class="features-grid">
+          <article class="feature-card feature-blue"><div class="feature-icon">⌕</div><span class="card-number">01</span><h3>Busca tu ruta</h3><p>Explora recorridos y compara alternativas para encontrar una opción que se adapte a tu destino.</p><div class="card-decoration route-lines"></div></article>
+          <article class="feature-card feature-yellow"><div class="feature-icon">◉</div><span class="card-number">02</span><h3>Ubica tu bus</h3><p>Consulta el seguimiento GPS en tiempo real y mantente al tanto del recorrido.</p><div class="card-decoration radar">◎</div></article>
+          <article class="feature-card feature-lilac"><div class="feature-icon">♡</div><span class="card-number">03</span><h3>Guarda favoritos</h3><p>Ten a mano tus rutas frecuentes y encuentra rápidamente tus paraderos cercanos.</p><div class="card-decoration heart">♡</div></article>
+          <article class="feature-card feature-mint"><div class="feature-icon">◷</div><span class="card-number">04</span><h3>Recibe alertas</h3><p>Activa avisos de llegada para estar preparado antes de que tu bus llegue.</p><div class="card-decoration bell">♧</div></article>
+          <article class="feature-card feature-peach"><div class="feature-icon">⇄</div><span class="card-number">05</span><h3>Compara recorridos</h3><p>Revisa distintas alternativas de viaje y elige la que más te convenga.</p><div class="card-decoration arrows">↗ ↙</div></article>
+          <article class="feature-card feature-dark"><div class="feature-icon">✧</div><span class="card-number">06</span><h3>Viaja conectado o no</h3><p>Consulta información guardada con el modo sin conexión y comparte reportes ciudadanos.</p><div class="card-decoration stars">✦ ✧</div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section how-section" id="como-funciona">
+      <div class="container how-grid">
+        <div class="how-visual">
+          <div class="route-card">
+            <div class="route-card-head"><span>PLANIFICA TU RECORRIDO</span><span class="route-menu">•••</span></div>
+            <div class="route-point"><span class="point-icon start">●</span><div><small>DESDE</small><b>Mi ubicación</b></div></div>
+            <div class="route-connector"></div>
+            <div class="route-point"><span class="point-icon end">◆</span><div><small>HASTA</small><b>Mi destino</b></div></div>
+            <div class="route-divider"></div>
+            <div class="route-option"><span class="route-bus-icon">🚌</span><div><b>Opciones de recorrido</b><small>Compara y elige tu camino</small></div><span class="route-arrow">→</span></div>
+            <div class="route-option"><span class="route-bus-icon">⌖</span><div><b>Paraderos cercanos</b><small>Encuentra dónde abordar</small></div><span class="route-arrow">→</span></div>
+          </div>
+          <div class="how-sticker">¡Vamos! <span>✦</span></div>
+        </div>
+        <div class="how-copy">
+          <div class="eyebrow">ASÍ DE FÁCIL</div>
+          <h2>Menos vueltas.<br><span>Más camino.</span></h2>
+          <p>UbicBus reúne información útil para que puedas organizar tus viajes desde un mismo espacio.</p>
+          <ol class="steps">
+            <li><span>1</span><div><b>Indica tu destino</b><p>Escribe a dónde necesitas llegar.</p></div></li>
+            <li><span>2</span><div><b>Revisa tus opciones</b><p>Compara recorridos y paraderos disponibles.</p></div></li>
+            <li><span>3</span><div><b>¡Sigue tu viaje!</b><p>Guarda tu ruta y consulta las actualizaciones.</p></div></li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <section class="busi-section section" id="busi">
+      <div class="container busi-grid">
+        <div class="busi-copy">
+          <div class="eyebrow eyebrow-light">¡HOLA, SOY BUSI!</div>
+          <h2>Tu compañero<br>en cada <span>recorrido.</span></h2>
+          <p>¡Mucho gusto! Soy Busi, la mascota de UbicBus. Estoy aquí para acompañarte, orientarte y hacer que descubrir tu ciudad sea una experiencia más amigable.</p>
+          <a class="button button-light" href="#descargar">Conoce UbicBus <span>→</span></a>
+        </div>
+        <div class="busi-art"><div class="busi-glow"></div><img src="assets/busisa.png" alt="Busi, la mascota de UbicBus, un autobús azul amigable."><span class="busi-speech">¡Nos vamos! <b>✦</b></span><span class="busi-star star-a">✦</span><span class="busi-star star-b">✳</span></div>
+      </div>
+    </section>
+
+    <section class="section download-section" id="descargar">
+      <div class="container download-card">
+        <div class="download-content"><div class="eyebrow">PRÓXIMAMENTE</div><h2>Tu próximo viaje<br>empieza con <span>UbicBus.</span></h2><p>Estamos preparando una experiencia pensada para hacer tus recorridos más simples. Muy pronto podrás conocer más.</p><a class="button button-primary" href="mailto:hola@ubicbus.app?subject=Quiero%20saber%20m%C3%A1s%20de%20UbicBus">Quiero saber más <span>→</span></a><small class="download-disclaimer">Los enlaces de descarga se habilitarán cuando la aplicación esté publicada.</small></div>
+        <div class="download-art"><div class="circle circle-one"></div><div class="circle circle-two"></div><div class="download-phone"><div class="download-phone-top"></div><img src="assets/busiIcon.png" alt=""><b>UbicBus</b><span>Tu ciudad, más cerca.</span><div class="fake-app-button">¡Vamos a viajar! →</div></div><span class="download-spark">✦</span></div>
+      </div>
+    </section>
+
+    <section class="faq-section section">
+      <div class="container faq-grid">
+        <div><div class="eyebrow">PREGUNTAS FRECUENTES</div><h2>¿Tienes<br><span>curiosidad?</span></h2><p>Te contamos un poco más sobre UbicBus.</p></div>
+        <div class="faq-list">
+          <details><summary>¿Qué es UbicBus?<span>+</span></summary><p>Es una aplicación móvil de transporte público que busca ayudarte a planificar recorridos, ubicar paraderos y consultar información de tus viajes.</p></details>
+          <details><summary>¿Puedo guardar mis rutas frecuentes?<span>+</span></summary><p>Sí. Entre sus funciones se consideran las rutas favoritas para que puedas acceder a ellas con mayor facilidad.</p></details>
+          <details><summary>¿UbicBus muestra dónde está mi bus?<span>+</span></summary><p>La aplicación contempla seguimiento GPS en tiempo real, sujeto a la disponibilidad de información de cada servicio.</p></details>
+          <details><summary>¿Dónde puedo descargarla?<span>+</span></summary><p>Los enlaces oficiales se agregarán cuando la aplicación esté disponible para descarga.</p></details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-main"><a class="brand brand-footer" href="#inicio"><span class="brand-mark"><img src="assets/busi.png" alt=""></span><span>Ubic<span>Bus</span></span></a><p>Tu ciudad, más cerca.</p><a href="#inicio" class="back-top">Volver arriba ↑</a></div>
+    <div class="container footer-bottom"><span>© <span id="year"></span> UbicBus. Todos los derechos reservados.</span><span>Hecho para moverte mejor <b>♥</b></span></div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
